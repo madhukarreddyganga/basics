@@ -42,3 +42,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+//onChange=()=>{
+  <div>
+  {
+(() => {
+elseif (this.state.persons[0].age>60)
+{
+   return (<div>He is younger
+     </div>)
+}
+elseif (this.state.persons[0].age<60)
+{
+   return (<div>He is Middle Age </div>)
+}
+if(this.state.persons[0].age===60)
+{
+ return (<div>He is older</div>)
+}
+else
+{
+ return (<div>He is not on earth</div>)
+}
+})()}
+
+</div>//

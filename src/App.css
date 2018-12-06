@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  background-image: url('parrot.jpg');
-  margin:480px;
-  width:430px;
-  height:500px;
-  margin-top:9%;
-  margin-bottom:9%;
+  background-image: url('pagecover.jpg');
+  
+  width:100%;
+  height:40%;
+  
+  
 }
 
 
@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Monotype Corsiva New Roman",
 }
 
 .App-link {
