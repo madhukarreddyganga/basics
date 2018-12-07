@@ -1,14 +1,26 @@
 .App {
   text-align: center;
-  background-image: url('pagecover.jpg');
-  
+  background-image: url('apartment.jpg');
   width:100%;
-  height:40%;
-  
-  
 }
-
-
+.forms{
+  color: white;
+  font-size: 15px;
+  font-family: monotype corsiva;
+  font-weight:bold;
+  text-align: center;
+  width:30%;
+  line-height:1;
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px 30px;
+}
+.details{
+  display: inline-block;
+  text-align:center;
+  width:150px;
+  line-height:2.85;
+}
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -17,11 +29,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: "Monotype Corsiva New Roman",
+  font-size: 15px;
+  font-family: monotype corsiva;
+  font-weight:bold;
 }
 
 .App-link {
   color:black;
-
 }
 
+.changes{
+  color:white;
+}
