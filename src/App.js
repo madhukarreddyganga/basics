@@ -43,15 +43,19 @@ this.setState({
      </div>
       <button className="details"
       onClick={()=>this.UserInformation('SURESH',+919030144238,'23 GENEVA CT',this.state.persons[0].age>60 ? 
-      'Older':(this.state.persons[0].age>30? 'abc': 'MIDDLEAGE'))}>Hello</button><br/><br/>
+      'Older':(this.state.persons[0].age>30? 'abc': 'MIDDLEAGE'))}>Hello</button>&nbsp;
       {/*ex:this.state.persons[0].age ? 'younger':'older' */}
+      
       <button className="details"
       onClick={()=>this.UserInformation('SRAVAN',+919393360127,'501 E KING DRIVE',this.state.persons[0].age<60 ?
        (this.state.persons[0].age<30? 'TEENAGE': 'FIND A JOB'):'YOUTH') }>Hello</button><br/>
+       
        <Form1 onSubmit={fields=>this.onSubmit(fields)}/><br/>
+       
+       <div className="changes">
        <fieldset>
-       <span className="changes">{JSON.stringify(this.state.fields,null,2)}</span>
-       </fieldset>
+       <span >{JSON.stringify(this.state.fields,null,2)}</span></fieldset>
+       </div>
       </div>
     );
   }

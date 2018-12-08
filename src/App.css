@@ -37,7 +37,10 @@
 .App-link {
   color:black;
 }
-
 .changes{
   color:white;
+  display: inline-block;
+  text-align:center;
+  width:207px;
+  line-height:2;
 }

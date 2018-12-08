@@ -1,8 +1,6 @@
 import React from 'react';
 
     const Person = (props) => {
-      
-        
         return (<div>
         <h1>{props.name}<br/>
             {props.phonenumber}<br/>
