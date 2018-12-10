@@ -17,7 +17,7 @@ class form1 extends Component {
         
         e.preventDefault();
         this.props.onSubmit(this.state);
-    /* alert(`Hi can enter Details ${this.firstname.value}| ${this.lastname.value}| ${this.email.value}| ${this.age.value} submitted details`);*/
+     alert(`Hi can enter Details ${this.firstname.value}| ${this.lastname.value}| ${this.email.value}| ${this.age.value} submitted details`);
         this.setState({
             firstname:"",
             lastname:"",
